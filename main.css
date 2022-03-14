@@ -27,16 +27,39 @@ body {
 .quote {
     height: 25vh;
     background-color: rgb(235, 235, 235);
+    padding-left: 5em;
     
 }
 .form {
     height: 50vh;
-    display: flex;
-    flex-wrap: wrap;
-    
+
+      
 }
 .create {
     height: 25vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.form-input {
+    width: 35em;
+    margin-left: 5em;
+    margin-top: 5px;
+    height: 20px;
+}
+.lets-do {
+    margin-left: 5em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.create-account{
     background-color: rgb(235, 235, 235);
-    
+    padding-left: 5em;
+    height: 14vh;
+}
+.createaccount{
+    color: white;
+    background-color: green;
 }
